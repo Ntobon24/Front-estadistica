@@ -1,0 +1,82 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+}
+
+.about-content {
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.about-content h2 {
+    color: #e63946;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e63946;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-content p {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.Prueba-hipotesis {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tipos,
+.importancia {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tipos h3,
+.importancia h3 {
+    color: #e63946;
+    font-size: 22px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e63946;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.tipos p,
+.importancia p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.about-content ul {
+    list-style-type: none; 
+    padding-left: 20px; 
+    margin-top: 15px;
+}
+
+.about-content li {
+    color: #333; 
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about-content li strong {
+    color: #e63946; 
+}
