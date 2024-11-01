@@ -23,13 +23,8 @@ const Form_Varianza = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('/api/Form_Varianza', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData)
-            });
-            const data = await response.json();
-            setResult(data.resultado);
+            const response = await axios.post('/api/Form_Varianza', formData);
+            setResult(response.data.resultado);
         } catch (error) {
             console.error('Error:', error);
         }
